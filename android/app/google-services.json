@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "510435221122",
+    "project_id": "ronny-dart-project",
+    "storage_bucket": "ronny-dart-project.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:510435221122:android:66b6cf1404696a51611e9b",
+        "android_client_info": {
+          "package_name": "se.pixolity.mynotes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "510435221122-f7e53ib75n3hl2qmb657d1cssqru2pug.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAhDYpaiRO1vUEGYGcOD8Rz7Vj3v2X2z6o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "510435221122-f7e53ib75n3hl2qmb657d1cssqru2pug.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
