@@ -1,5 +1,3 @@
-import 'dart:ffi';
-
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
@@ -21,6 +19,7 @@ void main() {
       routes: {
         '/login/': (context) => const LoginView(),
         '/register/': (context) => const RegisterView(),
+        'notes/': (context) => const NotesView(),
       },
     ),
   );
@@ -42,7 +41,7 @@ class HomePage extends StatelessWidget {
             if (user != null) {
               if (user.emailVerified) {
                 return const NotesView();
-                print('Email is verified');
+                devtools.log('Email is verified');
               } else {
                 return const VerifyEmailView();
               }
